@@ -118,11 +118,3 @@ Or use the [GitHub Issue Tracker](https://github.com/Anton193/anton-remini/issue
 
 
 By following these steps, you help us understand and address the issue more effectively. Thank you for your contribution!
-
-### Explanation:
-- **Clear Description**: The description should focus on what exactly went wrong, and it should be easy for others to understand.
-- **System Information**: Providing system specs ensures that bugs related to specific environments can be easily identified.
-- **Error Logs**: Including logs helps developers to pinpoint the cause of the problem faster.
-- **Reproduction Steps**: This ensures that the bug can be reproduced on the developer’s side, making it easier to debug.
-  
-By using this structured format, your bug reports will be more organized, which will make it easier for developers to understand and address the issue effectively. This also follows the guidelines typically requested by Termux and other open-source repositories.
