@@ -1,0 +1,3 @@
+#!/bin/bash
+
+node /anton-remini/anton-remini.js "$@"
