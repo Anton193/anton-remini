@@ -109,8 +109,8 @@ If you encounter any bugs or issues with **anton-remini**, please follow the gui
 2. Error message appears: "File not found."
 
 **Error Log**: (Attach the error log if available)
-
-How to Contact:
+```
+### How to Contact:
 
 Email: [AntonThomzz](antonthomzz@gmail.com)
 
