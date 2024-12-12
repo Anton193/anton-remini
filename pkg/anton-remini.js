@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const { proces } = require("./utils/process");
-const { showUsage, showHelp, showVersion } = require('./utils/show');
-const { searchFileProcess } = require('./utils/searchimages');
+const { proces } = require("./lib/process");
+const { showUsage, showHelp, showVersion } = require('./lib/show');
+const { searchFileProcess } = require('./lib/searchimages');
 
 if (process.argv.includes('--help') || process.argv.includes('-h')) {
   showHelp();

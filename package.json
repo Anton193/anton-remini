@@ -1,8 +1,21 @@
 {
+  "name": "anton-remini",
+  "version": "1.0.1",
+  "description": "A tool for enhancing image quality using the Remini AI. This tool improves photo resolution and clarity, making images sharper and of higher quality.",
+  "main": "pkg/anton-remini.js",
+  "scripts": {
+    "start": "node pkg/anton-remini.js"
+  },
   "dependencies": {
     "form-data": "^4.0.1",
     "fs": "^0.0.1-security",
     "jimp": "^1.6.0",
-    "path": "^0.12.7"
-  }
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "Anton",
+  "license": "MIT"
 }
