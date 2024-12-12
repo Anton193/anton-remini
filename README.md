@@ -13,7 +13,7 @@
 
 You can download and install **anton-remini** by following the steps below:
 
-1. Download the latest version of **anton-remini** from the [releases page](https://github.com/Anton193/anton-remini/releases).
+1. Download the latest version of **anton-remini** from the [releases page](https://github.com/Anton193/anton-remini/archive/refs/tags/v1.0.1.tar.gz).
 2. Follow the installation instructions for your platform (Linux, macOS, or Windows).
 
 Alternatively, you can clone the repository and build the tool from source:
@@ -22,7 +22,7 @@ Alternatively, you can clone the repository and build the tool from source:
 git clone https://github.com/Anton193/anton-remini.git
 cd anton-remini
 npm install
-make run <NAME_IMAGES>
+make run <FILE_NAME>
 ```
 
 ## Usage
@@ -81,3 +81,48 @@ Display this help message with usage instructions.
 - **File Search**: Easily locate and process files from `/storage/emulated/0`.
 
 Enjoy enhancing your images with **anton-remini**! 🚀
+
+## Report Bugs
+
+If you encounter any bugs or issues with **anton-remini**, please follow the guidelines below to report them effectively:
+
+### Steps to Report a Bug:
+1. **Describe the Issue Clearly**: Provide a detailed description of the problem. Include what you were trying to do, and what went wrong.
+   
+2. **Provide System Information**: Include details about the system you're using, such as the version of Node.js, operating system, and anton-remini version.
+
+3. **Attach Error Logs**: If you receive any error messages or logs, please attach them to the bug report. This will help identify the issue faster.
+
+4. **Steps to Reproduce (Optional)**: If possible, provide the steps or commands that lead to the error. This helps to reproduce and investigate the bug.
+
+### Example Bug Report:
+```plaintext
+**Issue Description**: When I run the command `hd foto.jpg output.jpg`, I receive the error "File not found."
+
+**System Information**:
+- Node.js version: 16.3.0
+- Operating System: Android 12
+- anton-remini version: 1.0.1
+
+**Steps to Reproduce**:
+1. Run the command `hd foto.jpg output.jpg`.
+2. Error message appears: "File not found."
+
+**Error Log**: (Attach the error log if available)
+
+How to Contact:
+
+Email: [AntonThomzz](antonthomzz@gmail.com)
+
+Or use the [GitHub Issue Tracker](https://github.com/Anton193/anton-remini/issues). to open a new issue.
+
+
+By following these steps, you help us understand and address the issue more effectively. Thank you for your contribution!
+
+### Explanation:
+- **Clear Description**: The description should focus on what exactly went wrong, and it should be easy for others to understand.
+- **System Information**: Providing system specs ensures that bugs related to specific environments can be easily identified.
+- **Error Logs**: Including logs helps developers to pinpoint the cause of the problem faster.
+- **Reproduction Steps**: This ensures that the bug can be reproduced on the developer’s side, making it easier to debug.
+  
+By using this structured format, your bug reports will be more organized, which will make it easier for developers to understand and address the issue effectively. This also follows the guidelines typically requested by Termux and other open-source repositories.
